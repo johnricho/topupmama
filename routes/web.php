@@ -18,7 +18,7 @@ Route::group(['middleware' => 'web'], function () {
 		return response()->json([
 			'status' => 'success',
 			'author' => 'John Ojebode (Johnricho)',
-			'message' => 'You are welcome to my TopupMama Test restful api!'
+			'message' => 'You are welcome to my TopupMama Assessment restful api!'
 		],200);
 	});
 	return response()->json([
