@@ -1,3 +1,15 @@
+# Postman Documentation
+
+https://documenter.getpostman.com/view/10273598/UVyrSvUi
+
+# Demo URL
+
+https://api.topupmama.johnricho.scnip.com/v1/
+
+# Github Repo
+
+https://github.com/johnricho/topupmama
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
