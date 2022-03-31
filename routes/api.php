@@ -22,18 +22,16 @@ Route::group(['prefix' => ''], function () {
     ],200);
 });
 Route::group(['prefix' => 'v1'], function () {
-    Route::get('', 'BooksController@index');
-    Route::get('books', 'BooksController@show');
-    Route::get('books/{name?}', 'BooksController@showByName');
-    Route::get('books/{id}/{name}', 'BooksController@showByGender');
-    Route::get('characters', 'CharactersListController@show');
-    Route::get('characters/{id}', 'CharactersListController@showById');
+    Route::get('', 'BookController@index');
+    Route::get('books', 'BookController@show');
+    Route::get('books/{id}', 'BookController@showById');
+    Route::get('characters', 'CharacterController@show');
+    Route::get('characters/{id}', 'CharacterController@showById');
 });
 Route::group(['prefix' => 'api'], function () {
-    Route::get('', 'BooksController@index');
-    Route::get('books', 'BooksController@show');
-    Route::get('books/{name?}', 'BooksController@showByName');
-    Route::get('books/{id}/{name}', 'BooksController@showByGender');
-    Route::get('characters', 'CharactersListController@show');
-    Route::get('characters/{id}', 'CharactersListController@showById');
+    Route::get('', 'BookController@index');
+    Route::get('books', 'BookController@show');
+    Route::get('books/{id}', 'BookController@showById');
+    Route::get('characters', 'CharacterController@show');
+    Route::get('characters/{id}', 'CharacterController@showById');
 });
